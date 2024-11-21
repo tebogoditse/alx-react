@@ -1,7 +1,3 @@
 import { fromJS } from 'immutable';
 
-function getImmutableObject(object) {
-  return fromJS(object);
-}
-
-export {getImmutableObject};
+const getImmutableObject = (object) => { fromJS(object); };

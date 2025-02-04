@@ -1,0 +1,22 @@
+.Notifications {
+	padding: 3px;
+	border: 2px dashed red;
+}
+
+.notifify-button {
+	background: none;
+	border: none;
+	font-size: 15px;
+	position: absolute;
+	right: 12px;
+	top: 12px;
+	cursor: pointer;
+}
+
+li[data="default"] {
+	color: blue;
+}
+
+li[data="urgent"] {
+	color: red;
+}
